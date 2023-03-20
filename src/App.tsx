@@ -1,12 +1,14 @@
 import { useState } from "react";
 import "./App.scss";
+import Home from "./pages/Home";
+import Pages from "./pages/Pages";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <h1>Food is good.</h1>
+      <Home />
     </div>
   );
-}
+};
 
 export default App;
